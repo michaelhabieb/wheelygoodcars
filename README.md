@@ -15,4 +15,4 @@
 
 # ERD
 De _schuingedrukte_ velden zijn `nullable` omdat ze later vanuit de RDW API opgehaald kunnen worden.
-![ERD](erd.png)
+![ERD](ERD.png)
