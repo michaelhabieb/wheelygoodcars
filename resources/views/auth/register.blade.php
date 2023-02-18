@@ -6,15 +6,7 @@
         <div class="card p-4" style="min-width: 50%;">
             <div class="card-body">
                 <h5 class="card-title mb-3">Registreren</h5>
-                @if ($errors->any())
-                    <div class="alert alert-danger">
-                        <ul>
-                            @foreach ($errors->all() as $error)
-                                <li>{{ $error }}</li>
-                            @endforeach
-                        </ul>
-                    </div>
-                @endif
+                @include('layouts.error')
                 <form action="{{ route('register.do') }}" method="POST">
                     @csrf
                     <div class="mb-3 row">
