@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('main')
+@section('content')
 
     <div class="fullheight">
         <div class="card p-4" style="min-width: 50%;">

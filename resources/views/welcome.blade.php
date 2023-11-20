@@ -1,2 +1,4 @@
 @extends('layouts.app')
-@section('main', 'welkom!')
+@section('content')
+    Welkom!
+@endsection
